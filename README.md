@@ -25,6 +25,7 @@ I classified a few thousands of these , but then i realized that it would take a
    2. Further More I also made a [tool](www.google.com) that takes a screenshot of the screen and saves it into a folder. It becomes handy when you want to deliberately put  difficult examples in your dataset.   
 
 The above tools proved helpful but did not solved the problem of gathering large number of examples for training. Therefore scraping was necessary.
+
 2. [Bazarov 's Dataset](https://github.com/EBazarov/nsfw_data_source_urls) . For collecting  set of nude images I included the the sub category in the list he provided namely: <br>
    * Female genitalia
    * Male genitalia 
@@ -33,4 +34,5 @@ By now I had enough examples of class **nude.** <br>
 
 
   3.[ Alex's Dataset](https://github.com/alex000kim/nsfw_data_scraper/tree/master/raw_data) . For classes **animated** and **porn** i scraped the data from here.
+  
 4.  [Instagram Scrapper](https://github.com/rarcega/instagram-scraper) For class **Semi Nude** I used his tool to scrape few Instagram pages that regularly post arousing images of men and women.  
