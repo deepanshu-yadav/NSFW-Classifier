@@ -20,7 +20,7 @@ of data . The data is for three classes <br>
    * Nude 
    * Sexy 
    *  Safe 
-   1. But the problem is I need more categories for my problem . So I made a simple [tool](www.google.com) that is helpful for sub classifying the above Nude Images. You just keep all the training samples in one folder and run and run it in a jupyter notebook.
+   1. But the problem is I need more categories for my problem . So I made a simple [tool](https://github.com/deepanshu-yadav/NSFW-Classifier/blob/master/classification_tool.ipynb) that is helpful for sub classifying the above Nude Images. You just keep all the training samples in one folder and run and run it in a jupyter notebook.
 I classified a few thousands of these , but then i realized that it would take a while to gather huge data. For class **Safe For Work** i sampled randomly from his huge dataset.
    2. Further More I also made a [tool](https://github.com/deepanshu-yadav/NSFW-Classifier/blob/master/useful_scripts/useful_scripts/example.py) that takes a screenshot of the screen and saves it into a folder. It becomes handy when you want to deliberately put  difficult examples in your dataset.   
 
@@ -29,7 +29,7 @@ The above tools proved helpful but did not solved the problem of gathering large
 2. [Bazarov 's Dataset](https://github.com/EBazarov/nsfw_data_source_urls) . For collecting  set of nude images I included the the sub category in the list he provided namely: <br>
    * Female genitalia
    * Male genitalia 
-   * Breasts 
+   * Breasts <br>
 By now I had enough examples of class **nude.** <br>
 
 
