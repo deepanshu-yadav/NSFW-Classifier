@@ -1,0 +1,38 @@
+.buttons {
+	border : solid 0px #e6b215;
+	border-radius : 8px;
+	moz-border-radius : 8px;
+	font-size : 16px;
+	color : #ffffff;
+	padding : 5px 18px;
+	background-color : #FF9900;
+	cursor:pointer;
+}
+ 
+.buttons:hover {
+	background-color:#ffc477;
+}
+ 
+.buttons:active {
+	position:relative;
+	top:1px;
+}
+ 
+span {
+	font-size: 120%;
+	font-weight: bold;
+}
+ 
+h1,
+canvas,
+h3 {
+  text-align: center;
+}
+ 
+.input-container {
+	text-align: center;
+  }
+ 
+body {
+	font-family: 'Lato';
+}

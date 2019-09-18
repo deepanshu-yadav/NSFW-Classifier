@@ -1,0 +1,27 @@
+<!DOCTYPE html encoding='UTF-8'>
+<html>
+   <!-- Favicon -->
+
+   <head>
+<meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+<meta content="utf-8" http-equiv="encoding">
+   <link rel="icon" href="favicon.ico" type="image/x-icon">
+      <h1>Is this image nsfw ??</h1>
+      <link rel="stylesheet" href="styles.css">
+      <link href='https://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+   </head>
+   <body>
+      <h3>Upload the image and find out !!</h3>
+      <div class="input-container">
+         <input type="file" value="Choose an image" id="inp" class="buttons" accept="image/*">
+         </br></br>
+         <canvas id="canvas"></canvas>
+         </br></br>
+         <input type="submit" value="Check if it's NSFW" id="genre" class="buttons">
+         </br></br>
+         <span id="genreReturned"></span>
+      </div>
+      <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.0/jquery.min.js"></script> 
+      <script src="nsfw.js"></script>
+   </body>
+</html>
