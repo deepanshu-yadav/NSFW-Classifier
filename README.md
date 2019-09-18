@@ -9,6 +9,11 @@ input image into five categories.
 3. **Animated**
 4. **Porn**
 5. **Safe For Work**
+
+# Demo 
+The model is deployed on aws check it yourself by downloading this repository , then going to demo folder and running index.html.
+
+
 # Contents
 1. [classification_tool.ipynb](https://github.com/deepanshu-yadav/NSFW-Classifier/blob/master/classification_tool.ipynb)
 2. [clean and prepare data.ipynb](https://github.com/deepanshu-yadav/NSFW-Classifier/blob/master/clean%20and%20prepare%20data.ipynb)
