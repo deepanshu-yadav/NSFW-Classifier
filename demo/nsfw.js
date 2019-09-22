@@ -5,6 +5,7 @@ document.getElementById('inp').onchange = function(e) {
     img.onload = draw;
     img.onerror = failed;
     img.src = URL.createObjectURL(this.files[0]);
+    console.log(img.src);
   };
   function draw() {
     var canvas = document.getElementById('canvas');
@@ -12,6 +13,7 @@ document.getElementById('inp').onchange = function(e) {
     canvas.height = this.height;
     var ctx = canvas.getContext('2d');
     ctx.drawImage(this, 0,0);
+    console.log("painted");
   }
   function failed() {
     alert("The provided file couldn't be loaded as an Image media");
@@ -21,7 +23,7 @@ document.getElementById("genre").onclick = function(){
     var canvas = document.getElementById("canvas")
     var image = canvas.toDataURL()
 	  var inputData = {"data": image};
- 
+    console.log(inputData);
     $.ajax({
       url: API_ENDPOINT,
       type: 'POST',
@@ -30,6 +32,7 @@ document.getElementById("genre").onclick = function(){
       dataType: 'json',
       contentType: "application/json",
       success: function (response) {
+	 console.log(response);
         document.getElementById("genreReturned").textContent = response;
       },
   });
