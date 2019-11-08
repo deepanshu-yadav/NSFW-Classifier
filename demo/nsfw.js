@@ -1,4 +1,6 @@
-var API_ENDPOINT = " https://pd8lunmm9l.execute-api.us-east-2.amazonaws.com/start/"
+
+
+var API_ENDPOINT = "https://7ul4fiq2v1.execute-api.us-east-2.amazonaws.com/final_stage"
  
 document.getElementById('inp').onchange = function(e) {
     var img = new Image();
