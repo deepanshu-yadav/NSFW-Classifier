@@ -1,4 +1,4 @@
-Email me at awsrohanyada@gmail.com if you want the trained model. 
+Email me at awsrohanyadav@gmail.com if you want the trained model. 
 
 # NSFW-Classifier
 An AWS Sagemaker Model developed for Nudity / NSFW Images Classification <br>
