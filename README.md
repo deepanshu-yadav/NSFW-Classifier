@@ -1,4 +1,4 @@
-Email me at awsrohanyadav@gmail.com if you want the trained model. 
+
 
 # NSFW-Classifier
 An AWS Sagemaker Model developed for Nudity / NSFW Images Classification <br>
@@ -41,7 +41,7 @@ The model is deployed on aws check it yourself by downloading this repository , 
 
 #  Data Collection And Organization
 The following guys had collected the data 
-1. [B Praneeth 's Data](https://archive.org/details/NudeNet_classifier_dataset_v1) . He did an awesome job in collection 
+1. [Olamide's Data](https://archive.org/details/NudeNet_classifier_dataset_v1) . He did an awesome job in collection 
 of data . The data is for three classes <br>
    * Nude 
    * Sexy 
