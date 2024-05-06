@@ -1,6 +1,6 @@
 Email me at awsrohanyadav@gmail.com if you want the trained model. 
 
-![alt text](images/AWS.svg?raw=true)
+![alt text](AWS.svg?raw=true)
 
 
 
